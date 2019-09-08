@@ -5,7 +5,7 @@ A-Star Pathfinding Algorithm
  It takes an 8x8 grid and from a provided starting point finds the optimal path to a provided end point.
  As I recall, in context it was built as a game. You needed to find the optimal path from A to B without running into any monsters. Each square of the grid contained a number presenting the number of nearby monsters in an adjacent square.
  
- #Example:
+ # Example:
  
  World: number of nearby monsters
  
@@ -51,3 +51,12 @@ Which is based on:
 0  0  0  0  1  1  1  0 
 
 0  1  1  0  0  1  1  0
+
+
+# Important to note: 
+ Both of these grids are required for runtime.
+
+# Output
+ The console/command line should show for every square;
+  -the co-ordinate taken 
+  -the number of adjacent squares checked for threats
