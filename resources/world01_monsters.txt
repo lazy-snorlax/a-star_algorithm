@@ -1,0 +1,13 @@
+# World01: Monsters
+8 8 # map size (rows columns)
+7 0 # start location (row column)
+0 7 # end location (row column)
+1   # nearby threshold
+0  0  0  1  0  1  0  0 
+0  1  0  0  0  0  0  0 
+0  1  1  1  0  0  1  0 
+0  1  1  1  0  1  0  0 
+0  1  1  1  1  0  0  1 
+1  0  1  0  0  0  1  1 
+0  0  0  0  1  1  1  0 
+0  1  1  0  0  1  1  0

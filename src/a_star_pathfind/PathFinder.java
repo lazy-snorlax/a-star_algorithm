@@ -64,7 +64,7 @@ public class PathFinder {
 	
 	public static void main(String[] args) {
 		if (args.length < 2) {
-			System.err.println("Usage: java au.edu.unisa.comp2019_2015.assignment1.PathFinder resources/worldXX_monsters.txt resources/worldXX_near.txt");
+			System.err.println("Usage: a_star_pathfind resources/worldXX_monsters.txt resources/worldXX_near.txt");
 			System.exit(1);
 		}
 		
